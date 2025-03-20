@@ -34,4 +34,4 @@ const reactElement = {
 const mainContainer = document.getElementById('root');
 
 customRender(reactElement, mainContainer);
-// render method used to inject the elements(reactElement) in the maincontainer
+// render method used to enject the elements(reactElement) in the maincontainer
