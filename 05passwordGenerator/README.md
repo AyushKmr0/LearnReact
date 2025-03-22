@@ -1,12 +1,59 @@
-# React + Vite
+# 🔐 Password Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Password Generator built with React using modern hooks and styled with Tailwind CSS.  
 
-Currently, two official plugins are available:
+## 📌 Features
+- Generate random passwords with adjustable length.  
+- Include numbers and symbols as options.  
+- Copy passwords to clipboard with a single click.  
+- Responsive UI styled with Tailwind CSS.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
+- **React** (useState, useEffect, useCallback, useRef)  
+- **Tailwind CSS** (For styling)  
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
+```lua
+src/
+|-- App.js
+|-- index.js 
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📦 Installation & Usage
+ 1. Clone the repository:  
+```bash
+git clone https://github.com/AyushKmr0/LearnReact.git
+```
+
+ 2. Navigate to the project directory:
+
+```bash
+cd LearnReact
+```
+
+ 3. Install dependencies:
+
+```bash
+npm install
+```
+
+
+ 4. Run the application:
+
+```bash
+npm run dev
+```
+
+5. Open your browser at http://localhost:5173/ to see the app in action.
+
+## 💡 How It Works
+
+- useState() manages state for password length, numbers, symbols, and generated password.
+- useEffect() auto-generates a new password whenever settings change.
+- useCallback() ensures functions aren’t re-created unnecessarily.
+- useRef() allows copying the password to the clipboard.
+
+
+## 📸 Demo Screenshot
+![Screenshot 2025-03-22 195055](https://github.com/user-attachments/assets/7f3c93aa-73e2-4bbc-ba17-1c70dd83e34a)
