@@ -22,7 +22,7 @@ function App() {
     const convert = () => {
         setConvertCurrency(amount * currencyInfo[to])
     }
-
+ 
     return (
         <div className="w-full h-screen flex flex-wrap justify-center items-center">
             <div className="w-full">
