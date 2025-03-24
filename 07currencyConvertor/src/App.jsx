@@ -20,13 +20,19 @@ function App() {
     }
 
     const convert = () => {
-        setConvertCurrency(amount * currencyInfo[to])
+        setConvertCurrency((amount * currencyInfo[to]).toFixed(3))
     }
  
     return (
-        <div className="w-full h-screen flex flex-wrap justify-center items-center">
+        <div className="w-full h-screen flex flex-wrap justify-center items-center"
+        // style={{
+        //     backgroundImage: `url('https://img.freepik.com/premium-vector/money-transfer-global-currency_115579-1115.jpg')`,
+        //     backgroundRepeat: 'no-repeat',
+        //     backgroundSize: 'cover'
+        // }}
+        >
             <div className="w-full">
-                <div className="w-full max-w-lg mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+                <div className="w-full max-w-2xl mx-auto border border-gray-60 rounded-lg p-12 backdrop-blur-xs bg-white/30">
                     <form
                         onSubmit={(event) => {
                             event.preventDefault();

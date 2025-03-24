@@ -1,12 +1,61 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Currency Converter built with React that fetches real-time exchange rates and converts between different currencies.
 
-Currently, two official plugins are available:
+## 📌 Features
+- Fetches live exchange rates from an API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Allows users to select different currencies for conversion.
 
-## Expanding the ESLint configuration
+- Updates conversion results instantly.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Styled with Tailwind CSS for a clean and responsive UI.
+
+
+## 🚀 Technologies Used
+- React (useState, useEffect)
+
+- Fetch API (For fetching exchange rates)
+
+- Tailwind CSS (For styling)
+
+## 📦 Installation & Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AyushKmr0/LearnReact.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd LearnReact
+```
+
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the application:
+
+```bash
+npm run dev
+```
+
+5. Open your browser at http://localhost:5173/ to see the app in action.
+
+## 💡 How It Works
+
+- useState() is used to manage the selected currencies, amount, and conversion result.
+
+- useEffect() fetches live exchange rates from the API whenever the currency selection changes.
+
+- fetch() is used to get real-time exchange rates.
+
+## 📸 Demo Screenshot
+
+![Screenshot 2025-03-24 123209](https://github.com/user-attachments/assets/2378de09-e1f3-4248-a1c6-c4fb328a7140)
