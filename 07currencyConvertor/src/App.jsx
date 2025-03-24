@@ -25,11 +25,11 @@ function App() {
  
     return (
         <div className="w-full h-screen flex flex-wrap justify-center items-center"
-        // style={{
-        //     backgroundImage: `url('https://img.freepik.com/premium-vector/money-transfer-global-currency_115579-1115.jpg')`,
-        //     backgroundRepeat: 'no-repeat',
-        //     backgroundSize: 'cover'
-        // }}
+        style={{
+            backgroundImage: `url('https://img.freepik.com/premium-vector/money-transfer-global-currency_115579-1115.jpg')`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+        }}
         >
             <div className="w-full">
                 <div className="w-full max-w-2xl mx-auto border border-gray-60 rounded-lg p-12 backdrop-blur-xs bg-white/30">
