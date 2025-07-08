@@ -16,7 +16,6 @@ Projects are created to supplement theoretical learning with practical experienc
 ## 📖 Additional Resources
 
 - [Official React Documentation](https://reactjs.org/docs/getting-started.html)
-- [React Community Support on Discord](https://hitesh.ai/discord)
 
 ## 📬 Connect with Me
 
