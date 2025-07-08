@@ -34,7 +34,7 @@ function TodoItem({ todo }) {
                         ? "border-black/10 px-2"
                         : "border-transparent"
                 } ${todo.completed ? "line-through" : ""}`}
-                value={todoMsg}
+                value={todoMsg.trim()}
                 onChange={(e) => setTodoMsg(e.target.value)}
                 readOnly={!isTodoEditable}
             />
