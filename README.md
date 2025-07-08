@@ -11,7 +11,7 @@ The purpose of this repository is to document my progress and enhance my React s
 
 ## 💡 Project-Based Learning
 
-Projects are created to supplement theoretical learning with practical experience. Each project has its own README file detailing the purpose, concept covered, and steps to run the project.
+Projects are created to supplement theoretical learning with practical experience.
 
 ## 📖 Additional Resources
 
